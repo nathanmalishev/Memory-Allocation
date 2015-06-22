@@ -1,8 +1,0 @@
-//worst fit algorithm
-
-#include <stdio.h>
-#include "worst.h"
-
-void function_worst(){
-	printf("--- worst ---\n");
-}

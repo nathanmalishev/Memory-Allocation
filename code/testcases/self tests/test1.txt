@@ -1,0 +1,547 @@
+Process with memory size 1..200. Memory Size is 200
+-----------------------------
+
+Stats for FIRST with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 1.79
+The average number of holes was 1.19
+The average number of mem_usage was 70.93
+-----------------------------
+
+Stats for BEST with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 1.97
+The average number of holes was 1.25
+The average number of mem_usage was 71.06
+-----------------------------
+
+Stats for WORST with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 1.84
+The average number of holes was 1.2
+The average number of mem_usage was 71.11
+-----------------------------
+
+Stats for NEXT with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 1.78
+The average number of holes was 1.19
+The average number of mem_usage was 70.67
+
+
+Process with memory size 1..50. Memory Size is 200
+-----------------------------
+
+Stats for FIRST with 200mb and 5000 processes
+The algorithm ran 14816 times
+The average number of process was 88.48
+The average number of holes was 11.35
+The average number of mem_usage was 74.87
+-----------------------------
+
+Stats for BEST with 200mb and 5000 processes
+The algorithm ran 14794 times
+The average number of process was 94.98
+The average number of holes was 12.65
+The average number of mem_usage was 76.24
+-----------------------------
+
+Stats for WORST with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 29.48
+The average number of holes was 11.38
+The average number of mem_usage was 57.69
+-----------------------------
+
+Stats for NEXT with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 40.09
+The average number of holes was 9.48
+The average number of mem_usage was 67.03
+
+Process with memory size 1..10. Memory Size is 200
+-----------------------------
+
+Stats for FIRST with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 143.15
+The average number of holes was 11.9
+The average number of mem_usage was 86.3
+-----------------------------
+
+Stats for BEST with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 128.28
+The average number of holes was 12.36
+The average number of mem_usage was 83.0
+-----------------------------
+
+Stats for WORST with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 107.25
+The average number of holes was 27.63
+The average number of mem_usage was 68.86
+-----------------------------
+
+Stats for NEXT with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 124.7
+The average number of holes was 16.25
+The average number of mem_usage was 81.14
+
+Process with memory size 1..30. Memory Size is 200
+-----------------------------
+
+Stats for FIRST with 200mb and 5000 processes
+The algorithm ran 14927 times
+The average number of process was 86.46
+The average number of holes was 9.69
+The average number of mem_usage was 78.45
+-----------------------------
+
+Stats for BEST with 200mb and 5000 processes
+The algorithm ran 14914 times
+The average number of process was 78.43
+The average number of holes was 9.49
+The average number of mem_usage was 76.2
+-----------------------------
+
+Stats for WORST with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 45.49
+The average number of holes was 16.51
+The average number of mem_usage was 57.79
+-----------------------------
+
+Stats for NEXT with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 48.24
+The average number of holes was 12.46
+The average number of mem_usage was 66.82
+
+
+Process with memory size 40..100 Memory Size is 200
+-----------------------------
+
+Stats for FIRST with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 2.81
+The average number of holes was 1.76
+The average number of mem_usage was 75.07
+-----------------------------
+
+Stats for BEST with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 2.74
+The average number of holes was 1.77
+The average number of mem_usage was 73.43
+-----------------------------
+
+Stats for WORST with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 2.79
+The average number of holes was 1.74
+The average number of mem_usage was 74.48
+-----------------------------
+
+Stats for NEXT with 200mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 2.79
+The average number of holes was 1.76
+The average number of mem_usage was 75.04
+
+
+
+Process with memory size 1..100. Memory Size is 1000
+-----------------------------
+
+Stats for FIRST with 1000mb and 5000 processes
+The algorithm ran 14470 times
+The average number of process was 236.36
+The average number of holes was 20.46
+The average number of mem_usage was 87.97
+-----------------------------
+
+Stats for BEST with 1000mb and 5000 processes
+The algorithm ran 14792 times
+The average number of process was 137.22
+The average number of holes was 34.91
+The average number of mem_usage was 65.14
+-----------------------------
+
+Stats for WORST with 1000mb and 5000 processes
+The algorithm ran 14924 times
+The average number of process was 75.35
+The average number of holes was 35.9
+The average number of mem_usage was 49.02
+-----------------------------
+
+Stats for NEXT with 1000mb and 5000 processes
+The algorithm ran 14882 times
+The average number of process was 96.46
+The average number of holes was 34.78
+The average number of mem_usage was 55.19
+
+Process with memory size 1..200. Memory Size is 1000
+-----------------------------
+
+Stats for FIRST with 1000mb and 5000 processes
+The algorithm ran 14788 times
+The average number of process was 114.59
+The average number of holes was 31.37
+The average number of mem_usage was 70.14
+-----------------------------
+
+Stats for BEST with 1000mb and 5000 processes
+The algorithm ran 14857 times
+The average number of process was 89.98
+The average number of holes was 28.4
+The average number of mem_usage was 61.35
+-----------------------------
+
+Stats for WORST with 1000mb and 5000 processes
+The algorithm ran 14960 times
+The average number of process was 39.92
+The average number of holes was 20.47
+The average number of mem_usage was 51.5
+-----------------------------
+
+Stats for NEXT with 1000mb and 5000 processes
+The algorithm ran 14957 times
+The average number of process was 48.15
+The average number of holes was 17.24
+The average number of mem_usage was 58.86
+
+
+Process with memory size 1..300. Memory Size is 1000
+-----------------------------
+
+Stats for FIRST with 1000mb and 5000 processes
+The algorithm ran 14764 times
+The average number of process was 112.3
+The average number of holes was 21.86
+The average number of mem_usage was 76.7
+-----------------------------
+
+Stats for BEST with 1000mb and 5000 processes
+The algorithm ran 14867 times
+The average number of process was 80.02
+The average number of holes was 19.61
+The average number of mem_usage was 66.67
+-----------------------------
+
+Stats for WORST with 1000mb and 5000 processes
+The algorithm ran 14988 times
+The average number of process was 21.19
+The average number of holes was 10.89
+The average number of mem_usage was 51.14
+-----------------------------
+
+Stats for NEXT with 1000mb and 5000 processes
+The algorithm ran 14981 times
+The average number of process was 37.78
+The average number of holes was 13.8
+The average number of mem_usage was 61.15
+-----------------------------
+
+Process with memory size 1..400. Memory Size is 1000
+-----------------------------
+
+Stats for FIRST with 1000mb and 5000 processes
+The algorithm ran 14794 times
+The average number of process was 94.24
+The average number of holes was 17.16
+The average number of mem_usage was 79.92
+-----------------------------
+
+Stats for BEST with 1000mb and 5000 processes
+The algorithm ran 14916 times
+The average number of process was 56.82
+The average number of holes was 15.27
+The average number of mem_usage was 65.84
+-----------------------------
+
+Stats for WORST with 1000mb and 5000 processes
+The algorithm ran 14986 times
+The average number of process was 16.47
+The average number of holes was 8.3
+The average number of mem_usage was 53.32
+-----------------------------
+
+Stats for NEXT with 1000mb and 5000 processes
+The algorithm ran 14969 times
+The average number of process was 33.08
+The average number of holes was 10.76
+The average number of mem_usage was 62.31
+
+
+Process with memory size 1..500. Memory Size is 1000
+-----------------------------
+
+Stats for FIRST with 1000mb and 5000 processes
+The algorithm ran 14883 times
+The average number of process was 62.93
+The average number of holes was 12.37
+The average number of mem_usage was 70.7
+-----------------------------
+
+Stats for BEST with 1000mb and 5000 processes
+The algorithm ran 14863 times
+The average number of process was 67.27
+The average number of holes was 14.22
+The average number of mem_usage was 71.73
+-----------------------------
+
+Stats for WORST with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 9.93
+The average number of holes was 5.18
+The average number of mem_usage was 59.45
+-----------------------------
+
+Stats for NEXT with 1000mb and 5000 processes
+The algorithm ran 14972 times
+The average number of process was 27.3
+The average number of holes was 11.17
+The average number of mem_usage was 62.77
+
+Process with memory size 1..600. Memory Size is 1000
+-----------------------------
+
+Stats for FIRST with 1000mb and 5000 processes
+The algorithm ran 14960 times
+The average number of process was 30.52
+The average number of holes was 10.64
+The average number of mem_usage was 64.53
+-----------------------------
+
+Stats for BEST with 1000mb and 5000 processes
+The algorithm ran 14934 times
+The average number of process was 40.89
+The average number of holes was 12.9
+The average number of mem_usage was 66.38
+-----------------------------
+
+Stats for WORST with 1000mb and 5000 processes
+The algorithm ran 14999 times
+The average number of process was 10.04
+The average number of holes was 4.46
+The average number of mem_usage was 62.44
+-----------------------------
+
+Stats for NEXT with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 9.13
+The average number of holes was 4.48
+The average number of mem_usage was 63.69
+
+Process with memory size 1..700. Memory Size is 1000
+-----------------------------
+
+Stats for FIRST with 1000mb and 5000 processes
+The algorithm ran 14920 times
+The average number of process was 39.61
+The average number of holes was 13.29
+The average number of mem_usage was 70.91
+-----------------------------
+
+Stats for BEST with 1000mb and 5000 processes
+The algorithm ran 14919 times
+The average number of process was 43.62
+The average number of holes was 11.15
+The average number of mem_usage was 69.28
+-----------------------------
+
+Stats for WORST with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 6.61
+The average number of holes was 3.67
+The average number of mem_usage was 62.22
+-----------------------------
+
+Stats for NEXT with 1000mb and 5000 processes
+The algorithm ran 14996 times
+The average number of process was 11.19
+The average number of holes was 4.71
+The average number of mem_usage was 66.48
+
+Process with memory size 1..800. Memory Size is 1000
+-----------------------------
+
+Stats for FIRST with 1000mb and 5000 processes
+The algorithm ran 14924 times
+The average number of process was 35.89
+The average number of holes was 6.97
+The average number of mem_usage was 72.57
+-----------------------------
+
+Stats for BEST with 1000mb and 5000 processes
+The algorithm ran 14952 times
+The average number of process was 26.43
+The average number of holes was 7.82
+The average number of mem_usage was 70.68
+-----------------------------
+
+Stats for WORST with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 5.13
+The average number of holes was 2.77
+The average number of mem_usage was 65.77
+-----------------------------
+
+Stats for NEXT with 1000mb and 5000 processes
+The algorithm ran 14996 times
+The average number of process was 7.74
+The average number of holes was 3.89
+The average number of mem_usage was 67.95
+
+Process with memory size 1..900. Memory Size is 1000
+-----------------------------
+
+Stats for FIRST with 1000mb and 5000 processes
+The algorithm ran 14972 times
+The average number of process was 15.37
+The average number of holes was 7.85
+The average number of mem_usage was 68.73
+-----------------------------
+
+Stats for BEST with 1000mb and 5000 processes
+The algorithm ran 14988 times
+The average number of process was 12.4
+The average number of holes was 3.41
+The average number of mem_usage was 70.41
+-----------------------------
+
+Stats for WORST with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 2.59
+The average number of holes was 1.72
+The average number of mem_usage was 69.62
+-----------------------------
+
+Stats for NEXT with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 3.11
+The average number of holes was 1.88
+The average number of mem_usage was 69.72
+
+Process with memory size 1..1000. Memory Size is 1000
+-----------------------------
+
+Stats for FIRST with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 1.78
+The average number of holes was 1.23
+The average number of mem_usage was 71.26
+-----------------------------
+
+Stats for BEST with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 1.8
+The average number of holes was 1.24
+The average number of mem_usage was 70.84
+-----------------------------
+
+Stats for WORST with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 1.76
+The average number of holes was 1.22
+The average number of mem_usage was 70.76
+-----------------------------
+
+Stats for NEXT with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 1.8
+The average number of holes was 1.23
+The average number of mem_usage was 70.94
+
+
+Process with memory size 200..400. Memory Size is 1000
+-----------------------------
+
+Stats for FIRST with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 3.8
+The average number of holes was 1.22
+The average number of mem_usage was 86.41
+-----------------------------
+
+Stats for BEST with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 3.44
+The average number of holes was 1.59
+The average number of mem_usage was 79.98
+-----------------------------
+
+Stats for WORST with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 3.68
+The average number of holes was 1.35
+The average number of mem_usage was 84.89
+-----------------------------
+
+Stats for NEXT with 1000mb and 5000 processes
+The algorithm ran 15000 times
+The average number of process was 3.63
+The average number of holes was 1.4
+The average number of mem_usage was 83.37
+-----------------------------
+
+Process with memory size 0..200. Memory Size is 1000
+
+Stats for FIRST with 1000mb and 5000 processes
+The algorithm ran 14729 times
+The average number of process was 143.68
+The average number of holes was 25.67
+The average number of mem_usage was 75.04
+-----------------------------
+
+Stats for BEST with 1000mb and 5000 processes
+The algorithm ran 14753 times
+The average number of process was 136.25
+The average number of holes was 28.06
+The average number of mem_usage was 70.6
+-----------------------------
+
+Stats for WORST with 1000mb and 5000 processes
+The algorithm ran 14965 times
+The average number of process was 48.48
+The average number of holes was 15.99
+The average number of mem_usage was 52.59
+-----------------------------
+
+Stats for NEXT with 1000mb and 5000 processes
+The algorithm ran 14887 times
+The average number of process was 86.38
+The average number of holes was 22.86
+The average number of mem_usage was 62.26
+
+Process with memory size 0..50. Memory Size is 1000
+-----------------------------
+
+Stats for FIRST with 1000mb and 5000 processes
+The algorithm ran 14184 times
+The average number of process was 383.78
+The average number of holes was 46.65
+mem_usage:  was 81.13
+-----------------------------
+
+Stats for BEST with 1000mb and 5000 processes
+The algorithm ran 14255 times
+The average number of process was 351.76
+The average number of holes was 37.34
+mem_usage:  was 79.15
+-----------------------------
+
+Stats for WORST with 1000mb and 5000 processes
+The algorithm ran 14612 times
+The average number of process was 224.43
+The average number of holes was 53.34
+mem_usage:  was 52.41
+-----------------------------
+
+Stats for NEXT with 1000mb and 5000 processes
+The algorithm ran 14621 times
+The average number of process was 244.05
+The average number of holes was 54.79
+mem_usage:  was 63.42

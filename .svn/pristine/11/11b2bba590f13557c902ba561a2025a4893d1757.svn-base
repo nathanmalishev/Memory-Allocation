@@ -1,0 +1,9 @@
+//header file for next.c
+
+#ifndef NEXTALOGIRHTM_H
+#define NEXTALOGIRHTM_H
+#include "mem_node.h"
+
+struct memory_lists* find_next(struct memory_list_info *info_node,struct processes* process, struct memory_lists *last_mem);
+
+#endif

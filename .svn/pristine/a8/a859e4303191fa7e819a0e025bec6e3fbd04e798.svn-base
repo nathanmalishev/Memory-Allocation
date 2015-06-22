@@ -1,0 +1,8 @@
+//header file for next.c
+
+#ifndef NEXTALOGIRHTM_H
+#define NEXTALOGIRHTM_H
+
+void function_next();
+
+#endif

@@ -1,0 +1,9 @@
+//header file for best fit algorithm c file
+
+#ifndef BESTALGORITHM_H
+#define BESTALGORITHM_H
+
+void function_best();
+
+
+#endif

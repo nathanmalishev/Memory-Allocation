@@ -1,0 +1,8 @@
+// header file for worst.c
+
+#ifndef WORSTALGORITHM_H
+#define WORSTALGORITHM_H
+
+void function_worst();
+
+#endif

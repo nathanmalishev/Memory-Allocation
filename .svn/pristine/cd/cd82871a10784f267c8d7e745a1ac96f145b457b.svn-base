@@ -1,0 +1,112 @@
+//code will be in here
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "queue.h"
+#include "math.h"
+#include "algorithms.h"
+#include "mem_node.h"
+
+
+#define TEST 0
+//Function that processes the process queue & prints results
+// processes based on algorithm selected
+void process_queue(struct processes *process, struct memory_list_info *info_node ,char *algorithm)
+{
+	struct memory_lists *memory_spot= NULL, *last_mem = NULL;
+	struct memory_lists *tmp;
+	struct processes *next;
+	//Process each proccess in the list
+	while( process )
+	{	
+		next = process->next;
+		//can we find a spot for the process in memory?
+		while( !memory_spot )
+		{
+			if (strcmp( algorithm, "first") == 0)
+			{		
+				memory_spot = find_first(info_node, process);
+			} 
+			else if (strcmp( algorithm, "best") == 0)
+			{
+				memory_spot = find_best(info_node, process);
+			}
+			else if (strcmp( algorithm, "worst") == 0)
+			{
+				memory_spot = find_worst(info_node, process);
+			}
+			else if (strcmp( algorithm, "next") == 0)
+			{
+				// if we have a last mem its actually the one before due to split function
+				if(last_mem)
+				{
+					last_mem = last_mem->prev;
+				}
+				memory_spot = find_next(info_node, process, last_mem);
+				if(memory_spot)
+				{	
+					last_mem = memory_spot->next;
+				}
+			}
+			else{
+				perror("algorithm not defined please enter best/first/worst/next");
+				exit(1);
+			}
+			
+			if(memory_spot){break;} //break on first iteration
+
+			//ok nothing was found dame
+			//time to take matters into our own hands and remove stuff
+			
+			//remove function
+			if(TEST){printf("remove memory node\n");}
+
+			tmp = remove_memory_node(info_node, process);
+			if(TEST){memory_list_testing(info_node,1);}
+			//my own error check
+			if(!tmp)
+			{
+				perror("error queue.c line 52");
+				exit(1);
+			}
+
+			//join function
+			if(TEST){printf("free mem node\n");}
+			free_memory_node(info_node, tmp);
+			if(TEST){memory_list_testing(info_node,1);}
+		}
+		if(TEST){printf("split mem node\n");}
+		if(TEST){printf("split this node\n");}
+		if(TEST){printf("add %p\n", memory_spot);}
+		if(TEST){printf("start %d\n", memory_spot->start);}
+		if(TEST){printf("size %d\n", memory_spot->size);}
+		if(TEST){printf("next: %p\n", memory_spot->next);}
+		//okay great we have a bit of memory lets use it!
+		split_memory_node(info_node, memory_spot, process->size);
+		if(TEST){memory_list_testing(info_node,1);}
+		if(TEST){printf("after split this node - before use\n");}
+		if(TEST){printf("add %p\n", memory_spot);}
+		if(TEST){printf("start %d\n", memory_spot->start);}
+		if(TEST){printf("size %d\n", memory_spot->size);}
+		if(TEST){printf("next: %p\n", memory_spot->next);}
+		if(TEST){printf("use mem node\n");}
+		//use this memory spot to a process
+		use_memory_node(info_node, memory_spot, process);
+		if(TEST){memory_list_testing(info_node,1);}
+		if(TEST){printf("after use mem\n");}
+		if(TEST){printf("add %p\n", memory_spot);}
+		if(TEST){printf("start %d\n", memory_spot->start);}
+		if(TEST){printf("size %d\n", memory_spot->size);}
+		if(TEST){printf("next: %p\n", memory_spot->next);}
+		//output printing
+		printf("%d loaded, numprocesses=%d, numholes=%d, memusage=%.f%%\n",
+			process->pid, info_node->num_processes, info_node->holes,
+				round(((info_node->mem_usage*1.0 / info_node->mem) * 100)+0.49) );
+		
+		//send in next process
+		process = next;
+		//reset memory spot
+		memory_spot = NULL;
+	}
+}
+

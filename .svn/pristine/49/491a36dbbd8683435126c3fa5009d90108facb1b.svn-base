@@ -1,0 +1,9 @@
+//best fit algorithm
+
+#include <stdio.h>
+#include "best.h"
+
+void function_best(){
+
+	printf("--- best --- \n");
+}

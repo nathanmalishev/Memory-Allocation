@@ -1,0 +1,10 @@
+// header file for worst.c
+
+#ifndef WORSTALGORITHM_H
+#define WORSTALGORITHM_H
+
+#include "mem_node.h"
+
+struct memory_lists* find_worst(struct memory_list_info *info_node,struct processes* process);
+
+#endif

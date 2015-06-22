@@ -26,7 +26,7 @@ def compare(input_file , output_file)
 end
 
 
-Dir.chdir('../../')
+Dir.chdir('../')
 
 system('make clobber')
 system('make')
